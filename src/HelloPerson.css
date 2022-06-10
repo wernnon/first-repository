@@ -1,0 +1,26 @@
+.divid{
+    margin: 5px;
+    border: 5px solid salmon;
+    border-radius: 20px 30px;
+    background-color: antiquewhite;
+    height: max-content;
+    padding: 1.0%;
+}
+.pic{
+    width: 400px;
+    height: 200px;
+    border-radius: 30px;
+    padding-left: 8px;
+    transition: 1.0s all;
+}
+.desc{
+    font-size: 20px;
+    text-align: justify;
+}
+.info{
+    font-weight: bold;
+}
+.pic:hover{
+    transform: scale(1.03);
+
+}
